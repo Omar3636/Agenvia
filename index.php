@@ -39,7 +39,6 @@ if (isset($_GET['buscar']) && !empty($_GET['destino'])) {
         .menu a {padding: 10px 20px; margin-right: 10px; border-radius: 5px;}
         .menu a:hover {background: gray;}
         
-        /* Estilos simples para el buscador */
         .buscador-rapido {
             background: #f5f5f5;
             padding: 20px;

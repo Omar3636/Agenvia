@@ -18,8 +18,10 @@ unset($_SESSION['errores_hotel'], $_SESSION['datos_hotel']);
     <meta charset="UTF-8">
     <title>Gestión de Hoteles</title>
     <style>
-        .menu {padding:15px; margin-bottom:20px;}
-        .menu a {padding:10px 20px; margin-right:10px; text-decoration:none;}
+    <style>
+        .menu {padding: 15px; margin-bottom: 20px;}
+        .menu a {padding: 10px 20px; margin-right: 10px; border-radius: 5px;}
+        .menu a:hover {background: gray;}
         .formulario {max-width:500px; margin:20px auto; padding:20px; border:1px solid gray;}
         .campo {margin-bottom:15px;}
         label {display:block; font-weight:bold; margin-bottom:5px;}
